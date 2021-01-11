@@ -6,8 +6,11 @@ function remove() {
   Array.prototype.forEach.call(els, function(el) {
     if (el.href.includes("company")) {
       var art_el = el.closest(child_name);
-      art_el.innerHTML = '';
-      art_el.remove();
+      if(art_el != null) 
+      {
+        art_el.innerHTML = '';
+        art_el.remove();
+      }
     }
   });
 }
