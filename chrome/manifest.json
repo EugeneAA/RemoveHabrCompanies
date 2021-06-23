@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "RemoveHabrCompanies",
-  "version": "1.1",
+  "version": "1.2",
 
   "description": "Удаление корпоративных блогов из ленты хабра",
   "browser_action": {
